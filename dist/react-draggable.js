@@ -1258,7 +1258,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	        onMouseDown: this.onMouseDown,
 	        onTouchStart: this.onTouchStart,
 	        onMouseUp: this.onMouseUp,
-	        onTouchEnd: this.onTouchEnd
+	        onTouchEnd: this.onTouchEnd,
+	        onTouchCancel: this.onTouchEnd
 	      });
 	    }
 	  }]);

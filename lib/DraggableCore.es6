@@ -366,7 +366,8 @@ export default class DraggableCore extends React.Component {
       onMouseDown: this.onMouseDown,
       onTouchStart: this.onTouchStart,
       onMouseUp: this.onMouseUp,
-      onTouchEnd: this.onTouchEnd
+      onTouchEnd: this.onTouchEnd,
+      onTouchCancel: this.onTouchEnd
     });
   }
 }
